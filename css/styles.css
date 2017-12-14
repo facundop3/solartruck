@@ -1,0 +1,61 @@
+/* Selectores descendentes */
+/* article h3{
+  background-color: green;
+} */
+
+/* *{
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+} */
+body{
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+
+}
+.title-a{
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+.summary{
+  font-size: 24px;
+
+}
+.title-b{
+  font-size: 35;
+  font-family: 'Roboto', sans-serif;
+}
+.cover-page{
+  background-image: url("../images/highway.jpeg");
+  color: white;
+  width: auto;
+  height: 800px;
+  margin: auto;
+}
+.cover-page a{
+  color: white;
+}
+.over-cover-text{
+  padding-top: 200px;
+  padding: 35px;
+  float: right;
+}
+.cover-page h3{
+  padding-left: 70px;
+}
+.services{
+  color: rgb(31,49,60,);
+}
+.menu{
+  font-size: 24px;
+  display:inline-block;
+
+}
+.menu li{
+  display:inline-block;
+  margin-left: 20px;
+}
+.logotipo{
+  display:inline-block;
+}
