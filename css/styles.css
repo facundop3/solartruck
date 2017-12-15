@@ -26,11 +26,16 @@ body{
   font-size: 35;
   font-family: 'Roboto', sans-serif;
 }
-.header-shadow{
+.shadow{
   background-color: rgba(0,0,0,0.6)
 }
-.header-shadow a{
+.shadow a{
   text-decoration: none;
+}
+.shadow2{
+  background-color: rgba(0,0,0,0.5);
+  pading:10px;
+  border-radius: 10px;
 }
 .cover-page{
   background-image: url("../images/highway.jpeg");
@@ -45,13 +50,36 @@ body{
 .over-cover-text{
   padding-top: 200px;
   padding: 35px;
-  padding-left:200px;
+  padding-left:167px;
+  margin: 50px;
+}
+.over-image-txt{
+
+    margin: 76px;
+    padding-top: 1px;
+    padding-left: 21px;
+    padding-bottom: 43px;
+
+}
+
+button{
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(254, 116, 67);
+  height: 24px;
+  width: 95px;
+  border: none;
+  /* padding:  */
 }
 .cover-page h3{
   padding-left: 70px;
+  bo
 }
 .services{
-  color: rgb(31,49,60,);
+  color: rgb(31,49,60);
+  width: 600px;
+  margin: auto;
+  padding: 20px;
 }
 .menu{
   font-size: 24px;
@@ -81,4 +109,16 @@ ul{
 .services-images{
   width:200px;
   height:auto;
+}
+.footer{
+
+  background-image: url("../images/highway_footer.jpeg")
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+
+}
+.contact strong{
+  display: block;
 }
