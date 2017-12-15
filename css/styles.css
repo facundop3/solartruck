@@ -26,6 +26,12 @@ body{
   font-size: 35;
   font-family: 'Roboto', sans-serif;
 }
+.header-shadow{
+  background-color: rgba(0,0,0,0.6)
+}
+.header-shadow a{
+  text-decoration: none;
+}
 .cover-page{
   background-image: url("../images/highway.jpeg");
   color: white;
@@ -39,7 +45,7 @@ body{
 .over-cover-text{
   padding-top: 200px;
   padding: 35px;
-  float: right;
+  padding-left:200px;
 }
 .cover-page h3{
   padding-left: 70px;
@@ -58,4 +64,21 @@ body{
 }
 .logotipo{
   display:inline-block;
+}
+.logo-size{
+  height: auto;
+  width: 40px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+ul{
+  list-style-type: none;
+}
+.services-images{
+  width:200px;
+  height:auto;
 }
