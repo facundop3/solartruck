@@ -114,11 +114,19 @@ ul{
 
   background-image: url("../images/highway_footer.jpeg")
 }
-.footer a{
+.footer a,label{
   text-decoration: none;
   color: white;
 
 }
 .contact strong{
   display: block;
+}
+.mensaje input{
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(254, 116, 67);
+  height: 24px;
+  width: 95px;
+  border: none;
 }

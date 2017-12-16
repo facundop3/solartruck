@@ -2,8 +2,8 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Allerta|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Roboto" rel="stylesheet"/>
     <title>SolarTruck</title>
   </head>
   <body class="test">
@@ -34,7 +34,9 @@
       </nav>
       <!-- logotipo -->
       <figure class="logotipo">
-        <img  class="logo-size" src="images/logo.png" alt="logotipo" width="100" title="Yep that's a cheese!">
+        <a href="#cool">
+        <img  class="logo-size" src="images/logo.png" alt="logotipo" width="100" title="Yep that's a cheese!"/>
+        </a>
       </figure>
     </header>
     <!-- cover-page -->
@@ -46,8 +48,8 @@
       <!-- summary -->
       <h3 class="summary">A tiempo, seguro y con un uso del 100% de energías sustentables</h3>
       <!-- email-input -->
-      <label for="email" class="email-label" >¿Quieres recibir novedades?</label>
-      <input type="text" name="email" placeholder="tu@correo.com" class="email">
+      <label for="email-1" class="email-label" >¿Quieres recibir novedades?</label>
+      <input type="text" name="email" placeholder="tu@correo.com" id="email-1"/>
       <!-- button -->
       <button type="button" name="button" class="button">Conoce más</button>
     </div>
@@ -75,9 +77,9 @@
           <li>Venezuela</li>
         </ul>
       </article>
-      <br><br>
+      <br/><br/>
       <article>
-        <img class="right services-images" src="images/gps.png" alt="Siempre sabrás donde está tu carga.">
+        <img class="right services-images" src="images/gps.png" alt="Siempre sabrás donde está tu carga."/>
         <h3 class="title-b">Última tecnología en trakeo de tu cargamento</h3>
         <ul>
           <li>Monitoreo constante en tiempo real</li>
@@ -117,16 +119,51 @@
         <div class="">
         <!-- logotipo -->
         <figure class="logotipo">
-          <img  class="logo-size" src="images/logo.png" alt="logotipo" width="100" title="Yep that's a cheese!">
+          <img  class="logo-size" src="images/logo.png" alt="logotipo" width="100" title="Yep that's a cheese!"/>
         </figure>
         <!-- phone -->
         <a href="tel:"><strong>Teléfono: </strong> <span>+5980123456</span></a>
         <!-- email -->
         <a href="mailto:hola@solartruck.com"><strong>Email: </strong> <span>hola@solartruck.com</span> </a>
       </div>
-      <div class="form">
-        form
+      <!-- form -->
+      <form class="form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" required placeholder="José Perez" id="nombre" name="nombre" value=""/>
+        <label for="email-2">Email:</label>
+        <input type="email" required placeholder="josepe@ejemplo.com" id="email-2"name="email-2" value=""/>
+        <!-- sexo -->
+        <div class="sexo">
+          <label for="femenino">
+            <input type="radio" name="sexo" id="femenino" value="femenino">Femenino
+          </label>
+          <label for="masculino">
+            <input type="radio" name="sexo" id="masculino" value="masculino">Masculino
+          </label>
+        </div>
+        <div class="motivo">
+          <label for="cotizaciones">Cotizaciones:
+            <input type="checkbox" name="motivo" id="cotizaciones" value="cotizaciones">
+          </label>
+          <label for="contacto">Contacto:
+            <input type="checkbox" name="motivo" id="contacto" value="contacto">
+          </label>
+          <br/>
+          <label for="negocios">Negocios:
+            <input type="checkbox" name="motivo" id="negocios" value="negocios">
+          </label>
+          <label for="reclamos">Reclamos:
+            <input type="checkbox" name="motivo" id="reclamos" value="reclamos">
+          </label>
+        </div>
+        <!-- asunto -->
+        <div class="mensaje">
+        <label for="mensaje">Mensaje: <br/>
+          <textarea name="name" rows="7" cols="40" id="mensaje"></textarea>
+          <input type="submit" name="" value="Enviar"/>
+        </label>
       </div>
+      </form>
     </div>
   </div>
     </footer>
