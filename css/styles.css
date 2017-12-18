@@ -1,17 +1,23 @@
-/* Selectores descendentes */
-/* article h3{
-  background-color: green;
-} */
-
-/* *{
-  border: 2px solid red;
-  padding: 10px;
-  margin: 10px;
-} */
 body{
   font-family: 'Allerta', sans-serif;
   margin: 0;
-
+}
+table{
+  width:100%;
+}
+th{
+  background-color: #ff491b;
+  font-weight: bold;
+}
+td{
+  background-color: rgba(0,0,0,0.6);
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+ul{
+  list-style-type: none;
 }
 .title-a{
   font-size: 70px;
@@ -27,13 +33,13 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .shadow{
-  background-color: rgba(0,0,0,0.6)
+  background-color: rgba(0,0,0,0.6);
 }
 .shadow a{
   text-decoration: none;
 }
 .shadow2{
-  background-color: rgba(0,0,0,0.5);
+  background:linear-gradient( 0deg,rgba(0, 0, 0,0.9),rgba(0, 0, 0,0.5));
   pading:10px;
   border-radius: 10px;
 }
@@ -50,7 +56,6 @@ body{
 .over-cover-text{
   padding-top: 200px;
   padding: 35px;
-  padding-left:167px;
   margin: 50px;
 }
 .over-image-txt{
@@ -62,18 +67,18 @@ body{
 
 }
 
-button{
+.button{
   border-radius: 5px;
   color: white;
   background-color: rgb(254, 116, 67);
   height: 24px;
   width: 95px;
   border: none;
-  /* padding:  */
+  cursor: pointer;
+  background: linear-gradient(to left, #ff4d00,rgb(254, 116, 67));
 }
 .cover-page h3{
   padding-left: 70px;
-  bo
 }
 .services{
   color: rgb(31,49,60);
@@ -103,30 +108,55 @@ button{
 .right{
   float: right;
 }
-ul{
-  list-style-type: none;
-}
 .services-images{
   width:200px;
   height:auto;
 }
 .footer{
-
-  background-image: url("../images/highway_footer.jpeg")
+  background-image: url("../images/highway_footer.jpeg");
+  background-size:cover;
+}
+.footer2{
+  /* background-image: url("../images/highway_footer.jpeg"); */
+  background-size:cover;
+  background: linear-gradient( 0deg,rgba(0, 0, 0,0.9),rgba(0, 0, 0,0.0));
 }
 .footer a,label{
   text-decoration: none;
   color: white;
-
 }
 .contact strong{
   display: block;
 }
-.mensaje input{
-  border-radius: 5px;
+.contact{
+  display: flex;
+  justify-content: space-around;
+}
+.form{
+  display: flex;
+  justify-content: space-around;
+}
+footer div{
+  margin: 10px;
+}
+.motivo{
+  width: 155px;
+  display: inline-table;
+}
+#footer-form{
+  margin: 0px !important;
+  border-radius: 0px;
+}
+.mensaje{
+  margin-left: 30px;
+}
+.table div{
   color: white;
-  background-color: rgb(254, 116, 67);
-  height: 24px;
-  width: 95px;
-  border: none;
+}
+.menu li:before{
+  content: '⨳';
+  color: grey;
+}
+.table{
+  height: 57%;
 }
